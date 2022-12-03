@@ -11,12 +11,12 @@
 ### About me:
 ---
 ### Skills:
-*HTML, CSS
-*JavaScript
-*Git
-*VScode
-*Linux
-*Python
+* HTML, CSS
+* JavaScript
+* Git
+* VScode
+* Linux
+* Python
 ---
 ### Code example:
 ```
