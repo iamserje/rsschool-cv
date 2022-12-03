@@ -7,8 +7,9 @@
 **WatsAp** +79789902363
 **Phone:** +905441009536
 [Linkedin](https://www.linkedin.com/in/sv-or-919179258)
-***
+---
 ### About me:
+Here will be text...
 ---
 ### Skills:
 * HTML, CSS
