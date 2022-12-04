@@ -39,8 +39,10 @@
 
 ### Code example:
 
-[On the codewars](https://www.codewars.com/users/iamserje/completed_solutions)
+[Kata on the codewars](https://www.codewars.com/users/iamserje/completed_solutions)
 
+
+And this was in Pithon:
 ```
 # mergin 2 sorted lists
 def merge(list1, list2):
