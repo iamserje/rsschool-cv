@@ -39,6 +39,8 @@
 
 ### Code example:
 
+[On the codewars](https://www.codewars.com/users/iamserje/completed_solutions)
+
 ```
 # mergin 2 sorted lists
 def merge(list1, list2):
