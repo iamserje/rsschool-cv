@@ -7,7 +7,7 @@
 
 **E-mail:** _iamserje@gmail.com_
 
-**Telegram:** _Sierge_
+**Telegram:** _@Sierge Voronkov_
 
 **WatsAp** +79789902363
 
@@ -18,7 +18,11 @@
 ---
 
 ### About me:
-Here will be text...
+    I am very interested in programming, create sites. I want to do this professionally. In order for my interest to turn into my profession, and thus, _combine hobbies and work_. There is a proverb: > a person who loves his work has not a single working day! Now in the process of changing the profession I devote the **maximum time to learning and training**. In general, if I set goals, I try to achieve them at all costs.
+	
+    I don’t have much experience as such, but if you count the hours and nights  I spent at the computer, solving some interesting problems ( _for example, installing and setting up a new Linux distributiv, setting up a home network of 4 computers, creating a bash script for renaming 1000 catalogs in a working directory, and so on_ ), then it cannot be said that I do not know anything.
+	
+    A year ago, I got carried away with programming on Python, went on a course on STEPIK. Now I realized that **Fronted development** is more promising, and deciding to try, I realized that this area was very interesting to me. Intends to study it and become a professional.
 
 ---
 
