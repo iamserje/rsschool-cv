@@ -132,6 +132,20 @@ body {
 	width: 300px;
 }
 
+.codewars {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+}
+
+.python {
+	display: inline-block;
+	margin-top: -20px;
+}
+
+h3 {
+	margin-left: 120px;
+}
 .footer {
 	height: 120px;
 	background-color: #1b9fc7;

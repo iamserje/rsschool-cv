@@ -92,30 +92,32 @@
                 <a href="https://www.codewars.com/users/iamserje/completed_solutions">Kata on the codewars</a>
               </div>
               <div class="python">
+                <h3>And this was in Python</h3>
                 <code>
-                  And this was in Pit
-                  # mergin 2 sorted lists
-                  def merge(list1, list2):
-                      mergedList = []
-                      ind1 = 0
-                      ind2 = 0
-                      while len(list1) > ind1 and len(list2) > ind2:
-                          if list1[ind1] < list2[ind2]:
-                              mergedList.append(list1[ind1])
-                              ind1+=1
-                          else:
-                              mergedList.append(list2[ind2])
-                              ind
-                      if len(list1) > ind1:
-                          resList = mergedList+list1[ind1:]
-                      else:
-                          resList = mergedList+list2[ind2:]
-                      return res
-                  # inputing data
-                  numbers1 = [int(c) for c in input().split()]
-                  numbers2 = [int(c) for c in input().spli
-                  # get function
-                  print(merge(numbers1, numbers2))
+                  <pre>
+                    # merge 2 sorted lists
+                    def merge(list1, list2):
+                        mergedList = []
+                        ind1 = 0
+                        ind2 = 0
+                        while len(list1) > ind1 and len(list2) > ind2:
+                            if list2[ind2] > list1[ind1]:
+                                mergedList.append(list1[ind1])
+                                ind1+=1
+                            else:
+                                mergedList.append(list2[ind2])
+                                ind
+                        if len(list1) > ind1:
+                            resList = mergedList+list1[ind1:]
+                        else:
+                            resList = mergedList+list2[ind2:]
+                        return res
+                    # input data
+                    numbers1 = [int(c) for c in input().split()]
+                    numbers2 = [int(c) for c in input().split()]
+                    # get function
+                    print(merge(numbers1, numbers2))
+                  </pre>
                 </code>
               </div>
             </div>
