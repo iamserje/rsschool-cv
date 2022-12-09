@@ -1,131 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/icons/favicon.ico">
+    <title>iamserje CV</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>iamserje CV</title>
-</head>
-
-<body>
-  <header class="main-header">
-    <ul class="header_list">
-      <li><a href="#Contacts">Contacts</a></li>
-      <li><a href="#Summary">Summary</a></li>
-      <li><a href="#Skills">Skills</a></li>
-      <li><a href="#Code example">Code example</a></li>
-      <li><a href=""></a></li>
-    </ul>
-  </header>
-  <div class="wrap">
-    <div class="table">
-      <div class="foto_name">
-        <aside class="aside-table-sell">
-          <img src="./assets/img/I_194.jpg" alt="my foto" class="my_foto">
-        </aside>
-        <div class="name">
-          <h1 class="main-title">Sierge Voronkov</h1>
-          <p class="header_text">
-            Junior Frontend Student
-          </p>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#Contacts">Contacts</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Summary">Summary</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Code-example">Code example</a></li>
+            <li class="nav-item"><a class="nav-link" href=""></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="wrap">
+      <div class="container">
+        <div class="table">
+          <div class="foto-name">
+            <aside class="aside-table-sell">
+              <img class="my-foto" src="./assets/img/iam240.jpg" alt="my foto" width="240" height="240">
+            </aside>
+            <div class="name">
+              <h1 class="greeting-title">Sierge Voronkov</h1>
+              <p class="greeting-text">
+                Junior Frontend Student
+              </p>
+            </div>
+          </div>
+          <main class="main-info">
+            <aside class="contacts aside-table-sell">
+              <h2 class="section-title" id="Contacts">Contacts:</h2>
+              <ul class="contacts-list">
+                <li>E-mail: iamserje@gmail.com</li>
+                <li>Telegram: @Sierge Voronkov</li>
+                <li>WatsAp +79789902363</li>
+                <li>Phone: +905346497943</li>
+                <li><a href="https://www.linkedin.com/in/sv-or-919179258">Linkedin</a></li>
+              </ul>
+            </aside>
+            <div class="main-text">
+              <h2 class="section-title" id="Summary">Summary</h2>
+              <p>
+                I am very interested in programming, create sites. I want to do this professionally. In order for my
+                interest to turn into my profession, and thus, combine hobbies and work. There is a proverb: > a person
+                who loves his work has not a single working day! Now in the process of changing the profession I devote
+                the maximum time to learning and training. In general, if I set goals, I try to achieve them at all
+                costs.
+              </p>
+              <p>
+                I don’t have much experience as such, but if you count the hours and nights I spent at the computer,
+                solving some interesting problems ( for example, installing and setting up a new Linux distributiv,
+                setting up a home network of 4 computers, creating a bash script for renaming 1000 catalogs in a working
+                directory, and so on ), then it cannot be said that I do not know anything.
+              </p>
+              <p>
+                A year ago, I got carried away with programming on Python, went on a course on STEPIK. Now I realized
+                that Fronted development is more promising, and deciding to try, I realized that this area was very
+                interesting to me. Intends to study it and become a professional.
+              </p>
+            </div>
+          </main>
+          <section class="scills-code">
+            <aside class="scills aside-table-sell">
+              <h2 class="section-title" id="Skills">Skills:</h2>
+              <ul>
+                <li>HTML, CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>VScode</li>
+                <li>Linux</li>
+                <li>Python</li>
+              </ul>
+              <div class="language">
+                <h2 class="section-title">Language:</h2>
+                <p>English A-2</p>
+              </div>
+            </aside>
+            <div class="code">
+              <h2 class="section-title" id="Code-example">Code example:</h2>
+              <div class="codewars">
+                <a href="https://www.codewars.com/users/iamserje/completed_solutions">Kata on the codewars</a>
+              </div>
+              <div class="python">
+                <h3>And this was in Python</h3>
+                <code>
+                  <pre>
+                    # merge 2 sorted lists
+                    def merge(list1, list2):
+                        mergedList = []
+                        ind1 = 0
+                        ind2 = 0
+                        while len(list1) > ind1 and len(list2) > ind2:
+                            if list2[ind2] > list1[ind1]:
+                                mergedList.append(list1[ind1])
+                                ind1+=1
+                            else:
+                                mergedList.append(list2[ind2])
+                                ind
+                        if len(list1) > ind1:
+                            resList = mergedList+list1[ind1:]
+                        else:
+                            resList = mergedList+list2[ind2:]
+                        return res
+                    # input data
+                    numbers1 = [int(c) for c in input().split()]
+                    numbers2 = [int(c) for c in input().split()]
+                    # get function
+                    print(merge(numbers1, numbers2))
+                  </pre>
+                </code>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
-      <main class="main">
-        <aside class="contacts aside-table-sell">
-          <h2 class="section-title" id="Contacts">Contacts:</h2>
-          <ul class="contacts_list">
-            <li>E-mail: iamserje@gmail.com</li>
-            <li>Telegram: @Sierge Voronkov</li>
-            <li>WatsAp +79789902363</li>
-            <li>Phone: +905441009536</li>
-            <li><a href="https://www.linkedin.com/in/sv-or-919179258">Linkedin</a></li>
-          </ul>
-        </aside>
-        <div class="main_text">
-          <h2 class="section-title" id="Summary">Summary</h2>
-          <p>
-            I am very interested in programming, create sites. I want to do this professionally. In order for my
-            interest to turn into my profession, and thus, combine hobbies and work. There is a proverb: > a person
-            who loves his work has not a single working day! Now in the process of changing the profession I devote
-            the maximum time to learning and training. In general, if I set goals, I try to achieve them at all
-            costs.
-          </p>
-          <p>
-            I don’t have much experience as such, but if you count the hours and nights I spent at the computer,
-            solving some interesting problems ( for example, installing and setting up a new Linux distributiv,
-            setting up a home network of 4 computers, creating a bash script for renaming 1000 catalogs in a working
-            directory, and so on ), then it cannot be said that I do not know anything.
-          </p>
-          <p>
-            A year ago, I got carried away with programming on Python, went on a course on STEPIK. Now I realized
-            that Fronted development is more promising, and deciding to try, I realized that this area was very
-            interesting to me. Intends to study it and become a professional.
-          </p>
-        </div>
-      </main>
-      <section class="scills_code">
-        <aside class="scills aside-table-sell">
-          <h2 class="section-title" id="Skills">Skills:</h2>
-          <ul>
-            <li>HTML, CSS</li>
-            <li>JavaScript</li>
-            <li>Git</li>
-            <li>VScode</li>
-            <li>Linux</li>
-            <li>Python</li>
-          </ul>
-          <div class="language">
-            <h2  class="section-title">Language:</h2>
-            <p>English A-2</p>
-          </div>
-        </aside>
-        <div class="code">
-          <h2 class="section-title" id="Code example">Code example:</h2>
-          <div class="codewars">
-            <a href="https://www.codewars.com/users/iamserje/completed_solutions">Kata on the codewars</a>
-          </div>
-          <div class="python">
-            <code>
-              And this was in Pit
-              # mergin 2 sorted lists
-              def merge(list1, list2):
-                  mergedList = []
-                  ind1 = 0
-                  ind2 = 0
-                  while len(list1) > ind1 and len(list2) > ind2:
-                      if list1[ind1] < list2[ind2]:
-                          mergedList.append(list1[ind1])
-                          ind1+=1
-                      else:
-                          mergedList.append(list2[ind2])
-                          ind
-                  if len(list1) > ind1:
-                      resList = mergedList+list1[ind1:]
-                  else:
-                      resList = mergedList+list2[ind2:]
-                  return res
-              # inputing data
-              numbers1 = [int(c) for c in input().split()]
-              numbers2 = [int(c) for c in input().spli
-              # get function
-              print(merge(numbers1, numbers2))
-
-            </code>
-          </div>
-        </div>
-      </section>
     </div>
-
-  </div>
-  <footer class="footer">
-    <a href="https://rs.school/js/" class="my_link">«JavaScript/Front-end. Stage 0»</a>
-    <span class="year">2022</span>
-    <div class="svg">
-      <img src="./assets/svg/rs_school.svg" alt="logo">
-    </div>
-  </footer>
-</body>
-
+    <footer class="footer">
+      <div class="container">
+        <a class="my-link" href="https://github.com/iamserje">«Authors Github»</a>
+        <span class="year">2022</span>
+        <div class="logo">
+          <a href="https://rs.school/js/"><img src="./assets/svg/rs_school.svg" alt="logo"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
