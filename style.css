@@ -31,52 +31,60 @@ body {
   	/* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
   font-weight: normal;
 }
+
 .main-header {
 	height: 120px;
 	background-color: #1b9fc7;
 	margin: 0px 0px 20px 0px;
 	text-align: center;
 }
+
 .my_foto {
 	width: 194px;
 	border: 2px solid #1b9fc7;
 	border-radius: 50%;
-
 }
+
 .name {
 	text-align: center;
 	vertical-align: middle;
 }
+
 .main-title {
   padding: 0px 0px 0px 0px;
 }
+
 .header_text {
 	font-size: 150%;
 }
+
 .header_list {
 	list-style: none;
 	padding: 30px 30px 30px 30px;
 	margin: 0;
-
 }
+
 .header_list li {
 	display: inline-block;
 	width: 130px;
 }
+
 .header_list li a {
 	font-size: 1.2em;
 	text-decoration: none;
 	color: #00f;
-
 }
+
 .main-title, .header_text {
 	font-family: 'Zen Dots', cursive;
 	line-height: 1;
 }
+
 .section-title {
 	line-height: 1;
 	color: #5f5e5e;
 }
+
 .wrap {
 	padding: 0 20px;
 }
@@ -85,15 +93,19 @@ body {
 	display: table;
 	border-spacing: 20px;
 }
+
 .foto_name {
 	display: table-row;
 }
+
 .main {
 	display: table-row;
 }
+
 .scills_code {
 	display: table-row;
 }
+
 .aside-table-sell, .name, .main_text, .code {
 	display: table-cell;
 	border-bottom: 1px solid #000;
@@ -108,11 +120,13 @@ body {
 	height: 120px;
 	background-color: #03617e8f;
 }
+
 .my_link {
   display: inline-block;
 	padding: 30px 0px;
 	margin: 0px 0px 0px 20px;
 }
+
 .year {
 	display: inline-block;
 	padding: 30px 0px;
@@ -120,6 +134,7 @@ body {
 	font-size: 1.2em;
 	color: #fff;
 }
+
 .svg {
 	width: 100px;
 	display: inline-block;
