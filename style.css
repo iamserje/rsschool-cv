@@ -158,12 +158,35 @@ body {
 .contacts-item::before {
 	content: "";
 	position: absolute;
-	left: 10px;
-	top: 5px;
-	width: 10px;
-	height: 10px;
-	border: 1px solid #5e5e5e;
-	border-radius: 50%;
+	left: -5px;
+	top: 0px;
+	width: 24px;
+	height: 24px;
+	/* border: 1px solid #5e5e5e;
+	border-radius: 50%; */
+	background-image: url(assets/img/icons/discord.ico);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.contacts-item:nth-child(1)::before {
+	background-image: url(assets/img/icons/mail.ico);
+}
+
+.contacts-item:nth-child(2)::before {
+	background-image: url(assets/img/icons/telegram_thin.ico);
+}
+
+.contacts-item:nth-child(3)::before {
+	background-image: url(assets/img/icons/whatsapp.ico);
+}
+
+.contacts-item:nth-child(4)::before {
+	background-image: url(assets/img/icons/mail.ico);
+}
+
+.contacts-item:nth-child(5)::before {
+	background-image: url(assets/img/icons/LinkedIn_thin.ico);
 }
 
 .contacts-list,
@@ -226,6 +249,6 @@ h3 {
 	display: inline-block;
 	width: 120px;
 	padding: 30px 0px;
-	margin: 0px 0px 0px 35%;
+	margin: 0px 0px 0px 40%;
 	text-align: right;
 }
